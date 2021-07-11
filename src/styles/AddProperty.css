@@ -1,0 +1,32 @@
+.AddProperty {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.AddPropertyWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddPropertyForm {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+}
+
+.AddPropertyFormLabel input,
+select {
+  margin-left: 3rem;
+  width: 12rem;
+  text-align: left;
+}
+
+button {
+  font-size: x-large;
+  align-self: center;
+  margin: 1rem;
+  padding: 0.3rem;
+  width: 10rem;
+}

@@ -1,0 +1,29 @@
+.navbar {
+  background-color: white;
+  border-bottom: black solid 1px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navbar-logo {
+  width: 25%;
+}
+
+.navbar-links a {
+  display: inline-block;
+  color: black;
+}
+
+.navbar-links a.active {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.navbar-links-item {
+  display: inline-block;
+  padding-right: 1rem;
+}
+.navbar-links-item:visited {
+  color: black;
+}

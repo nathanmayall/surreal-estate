@@ -1,0 +1,15 @@
+.Bad {
+  background-color: #ff5353;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  border: red 3px solid;
+}
+
+.Good {
+  background-color: rgb(223, 191, 88);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  border: green 3px solid;
+}
