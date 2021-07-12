@@ -10,6 +10,12 @@
   width: 25%;
 }
 
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  width: max-content;
+}
+
 .navbar-links a {
   display: inline-block;
   color: black;

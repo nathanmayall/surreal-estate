@@ -6,6 +6,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <img src="logo.png" alt="" className="navbar-logo" />
+
       <ul className="navbar-links">
         <NavLink exact to="/">
           <li className="navbar-links-item">View Properties</li>
