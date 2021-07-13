@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 import PropertyCard from "./PropertyCard";
+import SideBar from "./SideBar";
 
 const Properties = () => {
   const [properties, setProperties] = useState([]);
@@ -17,10 +18,13 @@ const Properties = () => {
   }, []);
 
   return (
-    <div className="propertiesWrapper">
-      {properties.map((p) => (
-        <PropertyCard property={p} key={p._id} />
-      ))}
+    <div className="container">
+      <SideBar />
+      <div className="propertiesWrapper">
+        {properties.map((p) => (
+          <PropertyCard property={p} key={p._id} />
+        ))}
+      </div>
     </div>
   );
 };
